@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t,X,H;
+	cin>>t;
+	while(t--){
+	    cin>>X>>H;
+	    if(X<H){
+	        cout<<"NO"<<endl;
+	    }
+	    else{
+	        cout<<"YES"<<endl;
+	    }
+	}
+}
