@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t,x,y;
+	cin>>t;
+	while(t--){
+	    cin>>x>>y;
+	    int prize=10*x + 90*y;
+	    cout<<prize<<endl;
+}
+}
