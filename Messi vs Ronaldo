@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+int A,B;
+int X,Y;
+cin>>A>>B>>X>>Y;
+int Messi=A*2+B;
+int Ronaldo=X*2+Y;
+if(Messi<Ronaldo){
+    cout<<"RONALDO"<<endl;
+}
+else if(Messi>Ronaldo){
+    cout<<"MESSI"<<endl;
+}
+else{
+    cout<<"EQUAL"<<endl;
+}
+return 0;
+}
