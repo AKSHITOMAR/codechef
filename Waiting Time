@@ -8,6 +8,7 @@ int t,x,k;
 cin>>t;
 while(t--){
     cin>>x>>k;
-    cout<<7-k<<endl;
+    int days=7*x;
+    cout<<days-k<<endl;
 }
 }
