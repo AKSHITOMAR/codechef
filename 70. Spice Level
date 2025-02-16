@@ -1,0 +1,20 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+int t,x;
+cin>>t;
+while(t--){
+    cin>>x;
+    if(x<4){
+        cout<<"mild"<<endl;
+    }
+    else if(x>=4 && x<7){
+        cout<<"medium"<<endl;
+    }
+    else{
+        cout<<"hot"<<endl;
+    }
+}
+}
