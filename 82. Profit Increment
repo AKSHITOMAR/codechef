@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+int t,x,y;
+cin>>t;
+while(t--){
+    cin>>x>>y;
+    int profit=x-y;
+    int nev=x+(x*0.1);
+    int newprofit=nev-profit;
+    cout<<newprofit<<endl;
+}
+}
