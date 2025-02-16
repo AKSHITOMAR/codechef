@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+int t,n,x,k;
+cin>>t;
+while(t--){
+    cin>>n>>x>>k;
+    int cost=x*n;
+    if(cost<=k){
+        cout<<"yes"<<endl;
+    }
+    else{
+        cout<<"no"<<endl;
+    }
+}
+}
