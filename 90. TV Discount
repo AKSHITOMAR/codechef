@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+int t,a,b,c,d;
+cin>>t;
+while(t--){
+    cin>>a>>b>>c>>d;
+    int first=a-c;
+    int second=b-d;
+    if(first>second){
+        cout<<"second"<<endl;
+    }
+    else if(first<second){
+        cout<<"first"<<endl;
+    }
+    else{
+        cout<<"any"<<endl;
+    }
+}
+}
