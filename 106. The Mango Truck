@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+int t,x,y,z;
+int i;
+cin>>t;
+while(t--){
+    cin>>x>>y>>z;
+    for( i=0;x*i+y<=z;i++){
+        }
+                    cout<<i-1<<endl;
+    }
+}
+    
+ 
