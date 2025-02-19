@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    float t,a,b,c;
+    cin>>t;
+    while(t--){
+        cin>>a>>b>>c;
+    float average =(a+b)/2;
+    if(average>c){
+        cout<<"yes"<<endl;
+    }
+    else{
+        cout<<"no"<<endl;
+    }
+    }
+}
