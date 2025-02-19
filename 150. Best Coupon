@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+int t,x;
+cin>>t;
+while(t--){
+    cin>>x;
+    int max=x-100;
+    int dis=x*0.1;
+    if(100>dis){
+        cout<<"100"<<endl;
+    }
+    else{
+        cout<<dis<<endl;
+    }
+}
+}
