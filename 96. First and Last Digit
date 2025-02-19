@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int t,n;
+	cin>>t;
+	while(t--){
+	    cin>>n;
+	int lastdigit=n%10;
+	int firstdigit=n;
+	while(firstdigit>=10){
+	    firstdigit=firstdigit/10;
+	}
+	cout<<lastdigit+firstdigit<<endl;
+	}
+}
