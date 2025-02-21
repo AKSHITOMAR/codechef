@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+int t,n;
+cin>>t;
+while(t--){
+    cin>>n;
+    int glass=n*50;
+    int sugarcane=0.2*glass;
+    int salt=0.2*glass;
+    int shop=0.3*glass;
+    int total=glass-(sugarcane+salt+shop);
+    cout<<total<<endl;
+}
+}
