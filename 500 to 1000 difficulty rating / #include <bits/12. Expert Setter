@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+int t,x,y;
+cin>>t;
+while(t--){
+    cin>>x>>y;
+    int prob= (y*100)/x;
+    if(prob>=50){
+        cout<<"yes"<<endl;
+    }
+    else{
+        cout<<"no"<<endl;
+    }
+}
+}
