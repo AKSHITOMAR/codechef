@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+int t,problem,marks,score;
+cin>>t;
+while(t--){
+    cin>>problem>>marks>>score;
+    if((score%marks==0)&&(score<=marks*problem)){
+        cout<<"yes"<<endl;
+    }
+    else{
+        cout<<"no"<<endl;
+    }
+}
+}
