@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+int x,y;
+cin>>x>>y;
+int z=y/2;
+int u=x-y;
+int w=z+u;
+cout<<w;
+}
