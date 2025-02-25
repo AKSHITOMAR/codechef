@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+int t,n,x;
+cin>>t;
+while(t--){
+    cin>>n>>x;
+    int z=n-x;
+    cout<<min(x,z)<<endl;
+}
+}
