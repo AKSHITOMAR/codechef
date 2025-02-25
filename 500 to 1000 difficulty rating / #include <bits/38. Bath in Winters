@@ -1,0 +1,12 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+int t,x,y;
+cin>>t;
+while(t--){
+    cin>>x>>y;
+    int z=y*2;
+    int div=x/z;
+    cout<<div<<endl;
+}
+}
