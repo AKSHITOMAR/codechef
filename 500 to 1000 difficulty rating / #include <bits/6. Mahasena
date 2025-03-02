@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+#include<vector>
+using namespace std;
+int main() {
+int n;
+int evensum=0,oddsum=0;
+cin>>n;
+vector<int>arr(n);
+for(int i=0;i<arr.size();i++){
+    cin>>arr[i];
+    if(arr[i]%2==0){
+        evensum++;
+    }
+    else{
+        oddsum++;
+    }
+}
+if(evensum>oddsum){
+    cout<<"ready for battle"<<endl;
+}
+else{
+    cout<<"not ready"<<endl;
+}
+}
