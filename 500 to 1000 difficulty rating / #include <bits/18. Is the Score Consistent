@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+int t,a,b,c,d;
+cin>>t;
+while(t--){
+    cin>>a>>b;
+    cout<<endl;
+    cin>>c>>d;
+    if(a>c || b>d){
+        cout<<"Impossible"<<endl;
+    }
+    else{
+        cout<<"Possible"<<endl;
+    }
+}
+}
