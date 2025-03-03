@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+int t,x,y,z;
+cin>>t;
+while(t--){
+    cin>>x>>y>>z;
+        int time=x*y;
+        int breaks=(x-1)/3;   // (bcz in last round no break taken)
+        time=time+breaks*z;
+        cout<<time<<endl;
+}
+}
