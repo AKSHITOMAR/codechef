@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+    int t,a,b,n;
+    cin>>t;
+    while(t--){
+        cin>>a>>b;
+         n=21-(a+b);
+        if(n<=10){
+            cout<<n<<endl;
+        }
+        else{
+            cout<<"-1"<<endl;
+        }
+    }
+}
