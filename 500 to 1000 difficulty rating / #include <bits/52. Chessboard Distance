@@ -5,6 +5,7 @@ int t,a,b,c,d;
 cin>>t;
 while(t--){
     cin>>a>>b>>c>>d;
-    cout<<max(a-c,b-d)<<endl;
+    cout<<max(abs(a-c),abs(b-d))<<endl;
+    // abs()=to avoid negative values
 }
 }
