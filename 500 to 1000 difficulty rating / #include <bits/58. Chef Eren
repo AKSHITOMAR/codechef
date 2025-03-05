@@ -1,0 +1,12 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+    int t,n,a,b;
+    cin>>t;
+    while(t--){
+        cin>>n>>a>>b;
+        int odd=(n+1)/2;
+        int even=n/2;
+        cout<<odd*b+even*a<<endl;
+    }
+}
