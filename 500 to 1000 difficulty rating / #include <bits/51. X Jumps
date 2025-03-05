@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+int t,x,y;
+cin>>t;
+while(t--){
+    cin>>x>>y;
+    int moves=x/y;
+    int mod=x%y;
+    cout<<moves+mod<<endl;
+}
+return 0;
+}
