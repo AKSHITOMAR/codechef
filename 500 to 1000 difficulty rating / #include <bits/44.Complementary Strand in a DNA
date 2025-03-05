@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+int t,n;
+cin>>t;
+while(t--){
+    string s,com="";
+    cin>>n>>s;
+    for(char b:s){
+        if(b=='A') 
+        com=com+'T';
+        else if(b=='T')
+        com=com+'A';
+        else if(b=='C')
+        com=com+'G';
+        else
+        com=com+'C';
+}
+cout<<com<<endl;
+}
+}
