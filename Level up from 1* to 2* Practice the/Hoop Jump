@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+#include<cmath>
+using namespace std;
+int main() {
+double t,h;
+cin>>t;
+while(t--){
+    cin>>h;
+    if(h==1) cout<<h<<endl;
+    else {
+        double r=h/2;
+        cout<<ceil(r)<<endl;
+    }
+}
+}
