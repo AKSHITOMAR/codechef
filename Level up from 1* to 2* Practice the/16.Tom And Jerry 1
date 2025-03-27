@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+    int t,a,b,c,d,k;
+    cin>>t;
+    while(t--){
+        cin>>a>>b>>c>>d>>k;
+        int min= abs(c-a)+abs(d-b);
+        int val=k-min;
+        if(val>=0&&val%2==0){
+            cout<<"yes"<<endl;
+        }
+        else{
+            cout<<"no"<<endl;
+    }
+}
+}
