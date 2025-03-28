@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+#include<cmath>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t,x,y,r;
+	cin>>t;
+	while(t--){
+	    cin>>x>>y>>r;
+	    float total=x+(r/30);
+	    cout<<ceil(total/y)<<endl;
+	}
+}
