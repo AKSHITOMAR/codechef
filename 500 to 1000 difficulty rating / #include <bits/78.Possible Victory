@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+int a,b,c;
+    cin>>a>>b>>c;
+    int z=((20-b)*6)*6;
+    int p=a-c;
+    if(z>p){
+        cout<<"yes";
+    }
+    else{
+        cout<<"no";
+    }
+}
