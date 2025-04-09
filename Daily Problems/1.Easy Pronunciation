@@ -13,7 +13,8 @@ int main() {
             if(s[i]=='a'||s[i]=='e'||s[i]=='i'||s[i]=='o'||s[i]=='u'){
                 count=0;
             }
-            else{
+            else
+             {
                 count++;
                 if(count>=4){
                     hardpronounce=true;
